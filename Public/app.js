@@ -40,7 +40,7 @@ console.log("THis is working !");
         // Iterate over the JSON object
         for (i = 0, len = resp.length; i < len; i++) {
           tableData.push({
-            id: resp[i].id,
+            // id: resp[i].id,
             district_id: resp[i].district_id,
             district_name: resp[i].district_name,
           });
